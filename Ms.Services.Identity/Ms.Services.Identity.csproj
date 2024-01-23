@@ -18,4 +18,8 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Ms.Common\Ms.Common.csproj" />
+  </ItemGroup>
+
 </Project>
