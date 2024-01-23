@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Ms.Activities\Ms.Activities.csproj" />
+    <ProjectReference Include="..\Ms.Api\Ms.Api.csproj" />
+    <ProjectReference Include="..\Ms.Services.Identity\Ms.Services.Identity.csproj" />
+  </ItemGroup>
+
 </Project>
